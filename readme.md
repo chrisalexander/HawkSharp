@@ -10,6 +10,9 @@ After a quick p/invoke the DLL is at your whim and I have started on a class wra
 
 * HawkSharp - class library for wrapping the DLL.
 * MotorUI - a nice UI with buttons and keyboard shortcuts for doing standard things with the motors
+* HawkIO - I/O libs used by HawkClient and HawkServer
+* HawkServer - UDP-based server for receiving commands via UDP and sending them to MotorHawk
+* HawkClient - simple UDP-based client for interacting with HawkServer via WPF
 
 ## Howto
 
