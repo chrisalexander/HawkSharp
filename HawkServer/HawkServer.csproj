@@ -48,7 +48,7 @@
     <Compile Include="Server.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HawkSharp\HawkIO\HawkIO.csproj">
+    <ProjectReference Include="..\HawkIO\HawkIO.csproj">
       <Project>{BF52B332-B81B-4300-BC7C-05224FD39014}</Project>
       <Name>HawkIO</Name>
     </ProjectReference>

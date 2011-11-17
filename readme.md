@@ -13,6 +13,7 @@ After a quick p/invoke the DLL is at your whim and I have started on a class wra
 * HawkIO - I/O libs used by HawkClient and HawkServer
 * HawkServer - UDP-based server for receiving commands via UDP and sending them to MotorHawk
 * HawkClient - simple UDP-based client for interacting with HawkServer via WPF
+* MobileHawk - WP7 app for controlling the robot with your phone
 
 ## Howto
 

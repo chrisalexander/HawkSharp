@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorUI", "..\MotorUI\Motor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkServer", "..\HawkServer\HawkServer.csproj", "{71010F08-B6DF-42AB-8DE9-CB3725FF9707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkClient", "HawkClient\HawkClient.csproj", "{941D3EE6-9FA9-4953-8DFC-0C844E5BAF5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileHawk", "..\MobileHawk\MobileHawk.csproj", "{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkIO", "HawkIO\HawkIO.csproj", "{BF52B332-B81B-4300-BC7C-05224FD39014}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkClient", "..\HawkClient\HawkClient.csproj", "{941D3EE6-9FA9-4953-8DFC-0C844E5BAF5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkIO", "..\HawkIO\HawkIO.csproj", "{BF52B332-B81B-4300-BC7C-05224FD39014}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,20 @@ Global
 		{71010F08-B6DF-42AB-8DE9-CB3725FF9707}.Release|Mixed Platforms.Build.0 = Release|x86
 		{71010F08-B6DF-42AB-8DE9-CB3725FF9707}.Release|x86.ActiveCfg = Release|x86
 		{71010F08-B6DF-42AB-8DE9-CB3725FF9707}.Release|x86.Build.0 = Release|x86
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{0C7627CF-BA88-47C8-886F-3FD3B8B91D7A}.Release|x86.ActiveCfg = Release|Any CPU
 		{941D3EE6-9FA9-4953-8DFC-0C844E5BAF5E}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{941D3EE6-9FA9-4953-8DFC-0C844E5BAF5E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
 		{941D3EE6-9FA9-4953-8DFC-0C844E5BAF5E}.Debug|Mixed Platforms.Build.0 = Debug|x86
