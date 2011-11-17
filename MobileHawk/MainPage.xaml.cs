@@ -15,6 +15,7 @@ namespace MobileHawk
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        // Output class
         private Output o;
 
         // Constructor
@@ -48,6 +49,11 @@ namespace MobileHawk
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             o.send("b");
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/AccelerometerPage.xaml", UriKind.Relative));
         }
     }
 }

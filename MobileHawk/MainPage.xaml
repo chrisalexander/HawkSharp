@@ -32,6 +32,7 @@
             <Button Content="Right" Margin="0,124,75,0" Name="button3" Height="160" VerticalAlignment="Top" HorizontalAlignment="Right" Width="160" Click="button3_Click" />
             <Button Content="Left" Height="160" HorizontalAlignment="Left" Margin="75,124,0,0" Name="button4" VerticalAlignment="Top" Width="160" Click="button4_Click" />
             <Button Content="Stop" Height="113" HorizontalAlignment="Left" Margin="221,147,0,0" Name="button5" VerticalAlignment="Top" Width="261" Click="button5_Click" />
+            <Button Content="Accel Mode" Height="55" HorizontalAlignment="Left" Margin="575,347,0,0" Name="button6" VerticalAlignment="Top" Width="129" FontSize="14" Click="button6_Click" />
         </Grid>
     </Grid>
 
